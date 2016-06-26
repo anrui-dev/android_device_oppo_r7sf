@@ -16,10 +16,10 @@
 
 include device/oppo/msm8939-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oppo/r7plus
+DEVICE_PATH := device/oppo/r7sf
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := r7plus,r7plusf,R7plusf
+TARGET_OTA_ASSERT_DEVICE := r7s,r7sf,R7sf
 
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
@@ -33,7 +33,7 @@ TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 # Kernel
 BOARD_DTBTOOL_ARGS := --force-v3
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset 0x01000000
-TARGET_KERNEL_CONFIG := cyanogenmod_r7plus_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_r7sf_defconfig
 
 # Partition info
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -42,11 +42,11 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 134217728
 BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 33554432
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 25769803776
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 26843545600
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 
 # inherit from the proprietary version
--include vendor/oppo/r7plus/BoardConfigVendor.mk
+-include vendor/oppo/r7sf/BoardConfigVendor.mk
