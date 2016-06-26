@@ -59,14 +59,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/config
 
-# Fingerprint sensor
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
-
-PRODUCT_PACKAGES += \
-    fingerprint.msm8916 \
-    fingerprintd
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8916
