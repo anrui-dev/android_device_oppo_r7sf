@@ -1,0 +1,59 @@
+# Audio
+etc/firmware/left.tfa9890.config
+etc/firmware/left.tfa9890.speaker
+etc/firmware/left.tfa9890_music_table.eq
+etc/firmware/left.tfa9890_music_table.preset
+etc/firmware/left.tfa9890_n1c2.patch
+etc/firmware/left.tfa9890_voice_table.eq
+etc/firmware/left.tfa9890_voice_table.preset
+
+# Camera
+vendor/lib/libimage_stability.so
+
+# Camera autofocus
+vendor/lib/libactuator_dw9800w_s5k3m2.so
+vendor/lib/libactuator_dw9800w_s5k3m2_camcorder.so
+vendor/lib/libactuator_dw9800w_s5k3m2_camera.so
+
+# Camera chromatix
+vendor/lib/libchromatix_ov8858_common.so
+vendor/lib/libchromatix_ov8858_default_video.so
+vendor/lib/libchromatix_ov8858_liveshot.so
+vendor/lib/libchromatix_ov8858_preview.so
+vendor/lib/libchromatix_ov8858_preview_binding.so
+vendor/lib/libchromatix_ov8858_preview_fb.so
+vendor/lib/libchromatix_ov8858_small_video.so
+vendor/lib/libchromatix_ov8858_snapshot.so
+vendor/lib/libchromatix_ov8858_snapshot_fb.so
+vendor/lib/libchromatix_ov8858_hfr_120fps.so
+vendor/lib/libchromatix_ov8858_hfr_60fps.so
+vendor/lib/libchromatix_ov8858_hfr_90fps.so
+vendor/lib/libchromatix_s5k3m2_common.so
+vendor/lib/libchromatix_s5k3m2_common_panorama.so
+vendor/lib/libchromatix_s5k3m2_default_video.so
+vendor/lib/libchromatix_s5k3m2_hfr_120fps.so
+vendor/lib/libchromatix_s5k3m2_hfr_60fps.so
+vendor/lib/libchromatix_s5k3m2_hfr_90fps.so
+vendor/lib/libchromatix_s5k3m2_liveshot.so
+vendor/lib/libchromatix_s5k3m2_preview.so
+vendor/lib/libchromatix_s5k3m2_preview_panorama.so
+vendor/lib/libchromatix_s5k3m2_small_video.so
+vendor/lib/libchromatix_s5k3m2_snapshot.so
+vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so
+vendor/lib/libchromatix_s5k3m2_video_hd.so
+vendor/lib/libchromatix_s5k3m2_zsl.so
+
+# Camera eeprom
+vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so
+
+# Camera sensors
+vendor/lib/libmmcamera_ov8858.so
+vendor/lib/libmmcamera_s5k3m2.so
+
+# Sensors
+bin/psensord
+vendor/lib64/libcalmodule_memsic.so
+
+# Touchscreen
+etc/firmware/tp/15022/15022_FW_S3508_Samsung.img
+etc/firmware/tp/15022/15022_Limit_Samsung.img
