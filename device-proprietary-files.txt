@@ -7,9 +7,6 @@ etc/tfa9890/settings/TFA9890_N1C3_1_7_1.patch:etc/firmware/left.tfa9890_n1c2.pat
 etc/tfa9890/settings/15022/Speech_0_0_TFA9890_1111.eq:etc/firmware/left.tfa9890_voice_table.eq|23151272932e44b37ef16bc24d168f2e5252aef8
 etc/tfa9890/settings/15022/Speech_0_0_TFA9890_1111.preset:etc/firmware/left.tfa9890_voice_table.preset
 
-# Camera
-vendor/lib/libimage_stability.so
-
 # Camera autofocus
 vendor/lib/libactuator_dw9800w_s5k3m2.so
 vendor/lib/libactuator_dw9800w_s5k3m2_camcorder.so
