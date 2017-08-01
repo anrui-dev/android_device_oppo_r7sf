@@ -39,6 +39,7 @@ vendor/lib/libchromatix_s5k3m2_snapshot.so
 vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so
 vendor/lib/libchromatix_s5k3m2_video_hd.so
 vendor/lib/libchromatix_s5k3m2_zsl.so
+vendor/lib/libchromatix_s5k3m2_zsl_off.so
 
 # Camera eeprom
 vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so
