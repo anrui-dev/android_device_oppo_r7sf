@@ -50,5 +50,8 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 22
 
+# Vendor security patch level
+VENDOR_SECURITY_PATCH := 2016-03-01
+
 # Inherit from proprietary files
 include vendor/oppo/r7sf/BoardConfigVendor.mk
