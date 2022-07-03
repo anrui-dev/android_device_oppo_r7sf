@@ -62,9 +62,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=480
-
 # Factory reset protection
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/platform/soc.0/7824900.sdhci/by-name/config
